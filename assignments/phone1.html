@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        ::placeholder{
+            /* padding-left: 40px; */
+            font-weight: bold;
+            color: black;
+        }
+    </style>
+</head>
+<body class="bg-black ">
+    <div class="bg-white w-[40%]  m-auto mt-[20px] rounded">
+        <div>
+            <img src="./Screenshot 2024-01-15 at 23.23.png" class="m-auto pt-4 w-[40%]" alt="">
+        </div>
+        <div>
+            <h1 class="text-center text-[35px] font-bold font-semibold m-6 ">Let's Get Started!</h1>
+            <p class="text-center text-[18px] font-light ">Seamless sign-up: easy fast secure.Get  <br>started now</p>
+        </div>
+        <div>
+            <form action="" class="flex flex-col justify-center items-center">
+                <div class="flex bg-white-500 w-[80%] h-10 m-4 border border-slite-300 rounded-md pl-3">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-2 mt-[8px]" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"></path></svg> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" class="absolute ml-2 mt-[8px]" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"></path></svg>
+                    <input type="text"  placeholder="User name" class="focus:outline-none ml-9 w-full">
+                </div>
+                <div class="flex bg-white-500 w-[80%] h-10 m-4 border border-slite-300 rounded-md pl-3">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-2 mt-[8px]" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"></path></svg> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-2 mt-[8px]" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg>
+                    <input type="text"  placeholder="Email" class="focus:outline-none ml-9 w-full">
+                </div>
+                <div class="flex bg-white-500 w-[80%] h-10 m-4 border border-slite-300 rounded-md pl-3">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-2 mt-[8px]" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"></path></svg> -->
+                    <svg class="absolute ml-2  mt-2.5 font-bold  icon" width="20" height="26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125" style="fill: rgb(0, 0, 0);transform: msFilter" id="smartphone"><path d="M32.125 5.906c-3.7 0-6.688 2.723-6.688 6.094v76.5c0 3.37 2.988 6.094 6.688 6.094h35.25c3.7 0 6.688-2.723 6.688-6.094V12c0-3.37-2.988-6.094-6.688-6.094h-35.25zM63.969 8.22a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zm-18.438.656h8.438c.2 0 .375.181.375.406 0 .225-.176.406-.375.406H45.53c-.2 0-.375-.18-.375-.406 0-.225.176-.406.375-.406zm-13.375.438c.228 0 .407.178.407.406 0 .228-.179.437-.407.437-.228 0-.406-.21-.406-.437 0-.228.178-.406.406-.406zm1.438.03c.215 0 .406.16.406.376 0 .215-.19.406-.406.406-.216 0-.375-.19-.375-.406 0-.216.159-.375.375-.375zm-5.938 4.095h44.188v71.78H27.656v-71.78zm16.75 74.874h10.688c.74 0 1.343.471 1.343 1.063v1.219c0 .592-.603 1.062-1.343 1.062H44.406c-.74 0-1.343-.47-1.343-1.062v-1.219c0-.592.603-1.063 1.343-1.063z"></path></svg>
+                    <input type="text"  placeholder="Phone" class="focus:outline-none ml-9 w-full">
+                </div>
+                <div class="flex bg-white-500 w-[80%] h-10 m-4 border border-slite-300 rounded-md pl-3">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-2 mt-[8px]" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"></path></svg> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-2 mt-[8px]" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M17 8V7c0-2.757-2.243-5-5-5S7 4.243 7 7v3H6c-1.103 0-2 .897-2 2v8c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-8c0-1.103-.897-2-2-2H9V7c0-1.654 1.346-3 3-3s3 1.346 3 3v1h2zm1 4 .002 8H6v-8h12z"></path></svg>
+                    <input type="text"  placeholder="Password" class="focus:outline-none ml-9 w-full">
+                </div>
+                <div class="flex bg-white-500 w-[80%] h-10 m-4 border border-slite-300 rounded-md pl-3">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-2 mt-[8px]" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"></path></svg> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-2 mt-[8px]" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M17 8V7c0-2.757-2.243-5-5-5S7 4.243 7 7v3H6c-1.103 0-2 .897-2 2v8c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-8c0-1.103-.897-2-2-2H9V7c0-1.654 1.346-3 3-3s3 1.346 3 3v1h2zm1 4 .002 8H6v-8h12z"></path></svg>
+                    <input type="text"  placeholder="Email" class="focus:outline-none ml-9 w-full">
+                </div>
+                <button class="bg-slate-600 w-[80%] m-4 justify-center text-white rounded p-2 hover:bg-slate-400 hover:text-gray-800 ">Create Account</button>
+            </form>
+            <p class="justify-center flex pb-4 ">Already have an account?  <a href="" class="text-red-600"> Login Here</a></p>
+        </div>
+    </div>
+</body>
+</html>

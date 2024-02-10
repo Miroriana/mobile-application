@@ -19,7 +19,7 @@ var totalSum=0
 items.forEach(element => {
     totalSum += element.price 
 });
-console.log(totalSum);
+console.log("The total sum is:",totalSum);
 
 // 4. Calculate the full price of all products combined and remove products that are under $10
 var sum=0
